@@ -1,0 +1,149 @@
+body{
+    background-color: gray;
+}
+header{
+    display: flex;
+    align-items: center;
+    border: blue solid;
+    border-radius: 10px;
+    background-color: rgb(120, 120, 250);
+    gap: 140px;
+    height: 50px;
+}
+
+header h1{
+    color: silver;
+}
+
+.b1{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-left: 20px;
+}
+
+.b2{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+.home img{
+    border-radius: 50%;
+    height: 450px;
+    width: 450px;
+    border: blue solid;
+}
+.home i{
+    font-size: 20px;
+    padding: 5px;
+    background-color: rgb(120, 120, 250);
+    margin-left: 10px;
+    border: blue solid;
+    border-radius: 50%;
+}
+
+span{
+    color: blue;
+}
+
+.home.cont h1, p, h3{
+    font-size: 30px;
+}
+
+.B0{
+    border: blue solid;
+    padding: 10px 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: rgb(120, 120, 250)
+}
+
+.C0{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.c1,.c2,.c3{
+    border: blue solid;
+    background-color: rgb(120, 120, 250);
+    padding: 0 15px;
+    border-radius: 15px;
+}
+
+.D0{
+    font-size: 280px;
+    padding: 30px;
+    border: blue solid;
+    background-color: rgb(120, 120, 250);
+    border-radius: 15px;
+}
+
+.E0 ul{
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    list-style: none;
+}
+
+li{
+    border: blue solid;
+    background-color: rgb(120, 120, 250);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.F0{
+    padding: 0 0 10px 100px;
+    border: blue solid;
+    background-color: rgb(120, 120, 250);
+    border-radius: 15px;
+    width: 40%;
+}
+
+.F0 input, textarea{
+    font-size: 30px;
+}
+
+footer{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    align-items: center;
+    border: blue solid;
+    background-color: rgb(120, 120, 250);
+    border-radius: 15px;
+    padding: 40px;
+    gap: 40px;
+}
+
+.left i{
+    font-size: 35px;
+    padding-left: 40px;
+}
+
+.icon i{
+    font-size: 100px;
+}
+
+.icon p{
+    font-size: 15px;
+}
+
+.icon{
+    background-color: blue;
+    border-radius: 15px 0 15px 0;
+    width: 140px ;
+    padding: 10px 20px;
+    text-align: center;
+    border: black solid;
+}
